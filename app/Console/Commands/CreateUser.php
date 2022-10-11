@@ -93,8 +93,7 @@ class CreateUser extends Command
         $user->password = Hash::make($password);
         $user->save();
 
-        $user->permissions()
-            ->saveMany(array_map(fn(Permission $permission): PermissionUser => new PermissionUser(['permission' => $permission]), $permissions));
+        $user->addPermissions($permissions);
 
         return Command::SUCCESS;
     }

@@ -80,4 +80,15 @@ class User extends Authenticatable
         }
         return true;
     }
+
+    /**
+     * @param Permission[] $permissions
+     * @return void
+     */
+    public function addPermissions(array $permissions): void
+    {
+        $permissions = array_filter($permissions, fn ($p) => !$this->hasPermission($p));
+        $permission_user_array = array_map(fn($p) => new PermissionUser(['permission' => $p]), $permissions);
+        $this->permissions()->saveMany($permission_user_array);
+    }
 }

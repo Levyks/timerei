@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Enums\Permission;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
@@ -14,7 +15,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  */
 class PermissionUser extends Model
 {
-    protected $timestamps = false;
+    use HasFactory;
+
+    public $timestamps = false;
 
     /**
      * The attributes that are mass assignable.
