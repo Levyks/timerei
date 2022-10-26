@@ -21,6 +21,8 @@ return new class extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+            $table->foreignId('created_by_id')->nullable()->constrained('users');
+            $table->foreignId('updated_by_id')->nullable()->constrained('users');
         });
     }
 

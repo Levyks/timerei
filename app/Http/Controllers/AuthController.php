@@ -2,29 +2,51 @@
 
 namespace App\Http\Controllers;
 
+use App\Dtos\Auth\ChangePasswordRequestDto;
 use App\Dtos\Auth\LoginRequestDto;
+use App\Dtos\Auth\LoginResponseDto;
+use App\Dtos\Extra\MessageResponseDto;
+use App\Dtos\Models\UserDto;
+use App\Exceptions\HttpException;
 use App\Services\AuthService;
-use Illuminate\Http\JsonResponse;
+use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
-    private AuthService $authService;
+    public function __construct(private readonly AuthService $authService) {}
 
-    public function __construct(AuthService $authService)
+    /**
+     * @throws HttpException
+     * @throws \Exception
+     */
+    public function login(LoginRequestDto $dto): LoginResponseDto
     {
-        $this->authService = $authService;
+        $result = $this->authService->authenticate($dto->email, $dto->password);
+        if(!$result) throw HttpException::invalidCredentials();
+        $token = $this->authService->createToken();
+        return new LoginResponseDto(token: $token->plainTextToken);
     }
 
-    public function login(LoginRequestDto $dto): JsonResponse
+    public function logout(): MessageResponseDto
     {
-        $result = $this->authService->login($dto->email, $dto->password);
-        if(!$result) return $this->jsonResponse(__('auth.failed'), null, 400);
-        return $this->jsonResponse(__('auth.logged_in'));
+        $this->authService->deleteCurrentToken();
+        return new MessageResponseDto(__('auth.logged_out'));
     }
 
-    public function logout(): JsonResponse
+    /**
+     * @throws \Throwable
+     */
+    public function changePassword(ChangePasswordRequestDto $dto): MessageResponseDto
     {
-        $this->authService->logout();
-        return $this->jsonResponse(__('auth.logged_out'));
+        if (!$this->authService->checkCurrentPassword($dto->current_password))
+            throw HttpException::incorrectCurrentPassword();
+
+        $this->authService->changePassword($dto->password);
+        return new MessageResponseDto(__('auth.password_changed'));
+    }
+
+    public function whoAmI(): UserDto
+    {
+        return UserDto::fromModel($this->authService->getCurrentUser());
     }
 }

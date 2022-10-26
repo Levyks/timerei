@@ -3,6 +3,8 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;s
+use Eloquent;
+use App\Traits\LogUser;
 use App\Enums\Permission;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -11,6 +13,8 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
 /**
+ * App\Models\User
+ *
  * @property int $id
  * @property string $name
  * @property string $email
@@ -20,10 +24,11 @@ use Laravel\Sanctum\HasApiTokens;
  * @property \App\Models\PermissionUser $permissions
  * @propery \DateTime $created_at
  * @propery \DateTime $updated_at
+ * @mixin Eloquent
  */
 class User extends Authenticatable
 {
-    use HasApiTokens, HasFactory, Notifiable;
+    use HasApiTokens, HasFactory, Notifiable, LogUser;
 
     /**
      * The attributes that are mass assignable.

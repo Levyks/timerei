@@ -8,10 +8,20 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
+ * App\Models\PermissionUser
+ *
  * @property int $id
  * @property \App\Models\User $user
  * @property int $user_id
  * @property \App\Enums\Permission $permission
+ * @method static \Database\Factories\PermissionUserFactory factory(...$parameters)
+ * @method static \Illuminate\Database\Eloquent\Builder|PermissionUser newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|PermissionUser newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|PermissionUser query()
+ * @method static \Illuminate\Database\Eloquent\Builder|PermissionUser whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PermissionUser wherePermission($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PermissionUser whereUserId($value)
+ * @mixin \Eloquent
  */
 class PermissionUser extends Model
 {

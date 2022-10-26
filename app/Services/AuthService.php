@@ -2,23 +2,51 @@
 
 namespace App\Services;
 
+use App\Models\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Request;
+use Laravel\Sanctum\NewAccessToken;
 
 class AuthService
 {
-    public function login(string $email, string $password): bool
+    public function authenticate(string $email, string $password): bool
     {
-        $result = Auth::attempt(['email' => $email, 'password' => $password]);
-        if($result) Request::session()->regenerate();
-        return $result;
+        return Auth::attempt(['email' => $email, 'password' => $password]);
     }
 
-    public function logout(): void
+    public function checkCurrentPassword(string $password): bool
     {
-        Auth::logout();
-        Request::session()->invalidate();
-        Request::session()->regenerateToken();
+        return Hash::check($password, Auth::user()->password);
+    }
+
+    public function createToken(): NewAccessToken
+    {
+        return Auth::user()->createToken(Request::ip());
+    }
+
+    public function deleteCurrentToken(): void
+    {
+        Auth::user()->currentAccessToken()->delete();
+    }
+
+    public function deleteAllTokens(): void
+    {
+        Auth::user()->tokens()->delete();
+    }
+
+    public function changePassword(string $new_password): void
+    {
+        Auth::user()->password = Hash::make($new_password);
+        Auth::user()->save();
+
+        $this->deleteAllTokens();
+    }
+
+    public function getCurrentUser(): User
+    {
+        return Auth::user();
     }
 
 }

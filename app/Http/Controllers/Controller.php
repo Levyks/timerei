@@ -12,15 +12,4 @@ use Illuminate\Support\Facades\Response;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-
-    public function jsonResponse($message, $data = null, $status = 200, $headers = []): JsonResponse
-    {
-        $body = [
-            'message' => $message,
-        ];
-
-        if($data) $body['data'] = $data;
-
-        return Response::json($body, $status, $headers);
-    }
 }
