@@ -1,7 +1,8 @@
 <?php
 
 use App\Http\Controllers\AuthController;
-use Illuminate\Http\Request;
+use App\Http\Controllers\ImageController;
+use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,4 +26,16 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::post('change-password', [AuthController::class, 'changePassword']);
         Route::get('who-am-i', [AuthController::class, 'whoAmI']);
     });
+
+    Route::resources(
+        [
+            'teams' => TeamController::class,
+            'images' => ImageController::class
+        ],
+        [
+            'only' => ['index', 'store', 'show', 'update', 'destroy']
+        ]
+    );
+
+
 });

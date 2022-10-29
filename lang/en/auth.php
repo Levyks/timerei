@@ -22,4 +22,7 @@ return [
     'password_changed' => 'Password changed successfully.',
     'incorrect_current_password' => 'The current password is incorrect.',
 
+    'unauthenticated' => 'Unauthenticated.',
+    'access_denied' => 'Access denied. Missing permissions: :permissions',
+
 ];

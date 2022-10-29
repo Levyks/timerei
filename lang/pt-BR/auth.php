@@ -21,4 +21,7 @@ return [
 
     'password_changed' => 'Senha alterada com sucesso.',
     'incorrect_current_password' => 'A senha atual está incorreta.',
+
+    'unauthenticated' => 'Não autenticado.',
+    'access_denied' => 'Acesso negado. Permissões faltantes: :permissions',
 ];

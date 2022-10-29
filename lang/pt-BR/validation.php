@@ -186,6 +186,12 @@ return [
         'description' => 'descrição',
         'password_confirmation' => 'confirmação da senha',
         'current_password' => 'senha atual',
+        'manager' => 'responsável',
+        'city_id' => 'cidade',
+        'logo_id' => 'logo',
+        'image' => 'imagem',
     ],
+
+    'failed' => 'Erro ao validar os dados: :message',
 
 ];

@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;s
-use Eloquent;
 use App\Traits\LogUser;
 use App\Enums\Permission;
+use DateTime;
+use Eloquent;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -18,12 +18,10 @@ use Laravel\Sanctum\HasApiTokens;
  * @property int $id
  * @property string $name
  * @property string $email
- * @property \DateTime $email_verified_at
+ * @property DateTime $email_verified_at
  * @property string $password
  * @property string $remember_token
- * @property \App\Models\PermissionUser $permissions
- * @propery \DateTime $created_at
- * @propery \DateTime $updated_at
+ * @property PermissionUser $permissions
  * @mixin Eloquent
  */
 class User extends Authenticatable
@@ -84,6 +82,15 @@ class User extends Authenticatable
             if (!$this->hasPermission($permission)) return false;
         }
         return true;
+    }
+
+    public function permissionsMissing(Permission ...$permissions): array
+    {
+        $missing = [];
+        foreach ($permissions as $permission) {
+            if (!$this->hasPermission($permission)) $missing[] = $permission;
+        }
+        return $missing;
     }
 
     /**

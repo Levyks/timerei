@@ -1,0 +1,1106 @@
+[
+    {
+        "name" : "Abaiara",
+        "code" : "2300101",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Acarape",
+        "code" : "2300150",
+        "abbreviation" : "ACA",
+        "state_code" : 23
+    },
+    {
+        "name" : "Acaraú",
+        "code" : "2300200",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Acopiara",
+        "code" : "2300309",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Aiuaba",
+        "code" : "2300408",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Alcântaras",
+        "code" : "2300507",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Altaneira",
+        "code" : "2300606",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Alto Santo",
+        "code" : "2300705",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Amontada",
+        "code" : "2300754",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Antonina do Norte",
+        "code" : "2300804",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Apuiarés",
+        "code" : "2300903",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Aquiraz",
+        "code" : "2301000",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Aracati",
+        "code" : "2301109",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Aracoiaba",
+        "code" : "2301208",
+        "abbreviation" : "ARA",
+        "state_code" : 23
+    },
+    {
+        "name" : "Ararendá",
+        "code" : "2301257",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Araripe",
+        "code" : "2301307",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Aratuba",
+        "code" : "2301406",
+        "abbreviation" : "ATB",
+        "state_code" : 23
+    },
+    {
+        "name" : "Arneiroz",
+        "code" : "2301505",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Assaré",
+        "code" : "2301604",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Aurora",
+        "code" : "2301703",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Baixio",
+        "code" : "2301802",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Banabuiú",
+        "code" : "2301851",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Barbalha",
+        "code" : "2301901",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Barreira",
+        "code" : "2301950",
+        "abbreviation" : "BAR",
+        "state_code" : 23
+    },
+    {
+        "name" : "Barro",
+        "code" : "2302008",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Barroquinha",
+        "code" : "2302057",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Baturité",
+        "code" : "2302107",
+        "abbreviation" : "BAT",
+        "state_code" : 23
+    },
+    {
+        "name" : "Beberibe",
+        "code" : "2302206",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Bela Cruz",
+        "code" : "2302305",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Boa Viagem",
+        "code" : "2302404",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Brejo Santo",
+        "code" : "2302503",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Camocim",
+        "code" : "2302602",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Campos Sales",
+        "code" : "2302701",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Canindé",
+        "code" : "2302800",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Capistrano",
+        "code" : "2302909",
+        "abbreviation" : "CAP",
+        "state_code" : 23
+    },
+    {
+        "name" : "Caridade",
+        "code" : "2303006",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Cariré",
+        "code" : "2303105",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Caririaçu",
+        "code" : "2303204",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Cariús",
+        "code" : "2303303",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Carnaubal",
+        "code" : "2303402",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Cascavel",
+        "code" : "2303501",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Catarina",
+        "code" : "2303600",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Catunda",
+        "code" : "2303659",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Caucaia",
+        "code" : "2303709",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Cedro",
+        "code" : "2303808",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Chaval",
+        "code" : "2303907",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Choró",
+        "code" : "2303931",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Chorozinho",
+        "code" : "2303956",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Coreaú",
+        "code" : "2304004",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Crateús",
+        "code" : "2304103",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Crato",
+        "code" : "2304202",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Croatá",
+        "code" : "2304236",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Cruz",
+        "code" : "2304251",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Deputado Irapuan Pinheiro",
+        "code" : "2304269",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Ererê",
+        "code" : "2304277",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Eusébio",
+        "code" : "2304285",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Farias Brito",
+        "code" : "2304301",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Forquilha",
+        "code" : "2304350",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Fortaleza",
+        "code" : "2304400",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Fortim",
+        "code" : "2304459",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Frecheirinha",
+        "code" : "2304509",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "General Sampaio",
+        "code" : "2304608",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Graça",
+        "code" : "2304657",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Granja",
+        "code" : "2304707",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Granjeiro",
+        "code" : "2304806",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Groaíras",
+        "code" : "2304905",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Guaiúba",
+        "code" : "2304954",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Guaraciaba do Norte",
+        "code" : "2305001",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Guaramiranga",
+        "code" : "2305100",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Hidrolândia",
+        "code" : "2305209",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Horizonte",
+        "code" : "2305233",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Ibaretama",
+        "code" : "2305266",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Ibiapina",
+        "code" : "2305308",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Ibicuitinga",
+        "code" : "2305332",
+        "abbreviation" : "IBI",
+        "state_code" : 23
+    },
+    {
+        "name" : "Icapuí",
+        "code" : "2305357",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Icó",
+        "code" : "2305407",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Iguatu",
+        "code" : "2305506",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Independência",
+        "code" : "2305605",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Ipaporanga",
+        "code" : "2305654",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Ipaumirim",
+        "code" : "2305704",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Ipu",
+        "code" : "2305803",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Ipueiras",
+        "code" : "2305902",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Iracema",
+        "code" : "2306009",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Irauçuba",
+        "code" : "2306108",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Itaiçaba",
+        "code" : "2306207",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Itaitinga",
+        "code" : "2306256",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Itapagé",
+        "code" : "2306306",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Itapipoca",
+        "code" : "2306405",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Itapiúna",
+        "code" : "2306504",
+        "abbreviation" : "ITA",
+        "state_code" : 23
+    },
+    {
+        "name" : "Itarema",
+        "code" : "2306553",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Itatira",
+        "code" : "2306603",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Jaguaretama",
+        "code" : "2306702",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Jaguaribara",
+        "code" : "2306801",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Jaguaribe",
+        "code" : "2306900",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Jaguaruana",
+        "code" : "2307007",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Jardim",
+        "code" : "2307106",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Jati",
+        "code" : "2307205",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Jijoca de Jericoacoara",
+        "code" : "2307254",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Juazeiro do Norte",
+        "code" : "2307304",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Jucás",
+        "code" : "2307403",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Lavras da Mangabeira",
+        "code" : "2307502",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Limoeiro do Norte",
+        "code" : "2307601",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Madalena",
+        "code" : "2307635",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Maracanaú",
+        "code" : "2307650",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Maranguape",
+        "code" : "2307700",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Marco",
+        "code" : "2307809",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Martinópole",
+        "code" : "2307908",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Massapê",
+        "code" : "2308005",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Mauriti",
+        "code" : "2308104",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Meruoca",
+        "code" : "2308203",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Milagres",
+        "code" : "2308302",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Milhã",
+        "code" : "2308351",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Miraíma",
+        "code" : "2308377",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Missão Velha",
+        "code" : "2308401",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Mombaça",
+        "code" : "2308500",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Monsenhor Tabosa",
+        "code" : "2308609",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Morada Nova",
+        "code" : "2308708",
+        "abbreviation" : "MNO",
+        "state_code" : 23
+    },
+    {
+        "name" : "Moraújo",
+        "code" : "2308807",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Morrinhos",
+        "code" : "2308906",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Mucambo",
+        "code" : "2309003",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Mulungu",
+        "code" : "2309102",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Nova Olinda",
+        "code" : "2309201",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Nova Russas",
+        "code" : "2309300",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Novo Oriente",
+        "code" : "2309409",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Ocara",
+        "code" : "2309458",
+        "abbreviation" : "OCA",
+        "state_code" : 23
+    },
+    {
+        "name" : "Orós",
+        "code" : "2309508",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Pacajus",
+        "code" : "2309607",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Pacatuba",
+        "code" : "2309706",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Pacoti",
+        "code" : "2309805",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Pacujá",
+        "code" : "2309904",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Palhano",
+        "code" : "2310001",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Palmácia",
+        "code" : "2310100",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Paracuru",
+        "code" : "2310209",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Paraipaba",
+        "code" : "2310258",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Parambu",
+        "code" : "2310308",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Paramoti",
+        "code" : "2310407",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Pedra Branca",
+        "code" : "2310506",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Penaforte",
+        "code" : "2310605",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Pentecoste",
+        "code" : "2310704",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Pereiro",
+        "code" : "2310803",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Pindoretama",
+        "code" : "2310852",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Piquet Carneiro",
+        "code" : "2310902",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Pires Ferreira",
+        "code" : "2310951",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Poranga",
+        "code" : "2311009",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Porteiras",
+        "code" : "2311108",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Potengi",
+        "code" : "2311207",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Potiretama",
+        "code" : "2311231",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Quiterianópolis",
+        "code" : "2311264",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Quixadá",
+        "code" : "2311306",
+        "abbreviation" : "QUI",
+        "state_code" : 23
+    },
+    {
+        "name" : "Quixelô",
+        "code" : "2311355",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Quixeramobim",
+        "code" : "2311405",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Quixeré",
+        "code" : "2311504",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Redenção",
+        "code" : "2311603",
+        "abbreviation" : "RED",
+        "state_code" : 23
+    },
+    {
+        "name" : "Reriutaba",
+        "code" : "2311702",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Russas",
+        "code" : "2311801",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Saboeiro",
+        "code" : "2311900",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Salitre",
+        "code" : "2311959",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Santa Quitéria",
+        "code" : "2312205",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Santana do Acaraú",
+        "code" : "2312007",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Santana do Cariri",
+        "code" : "2312106",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "São Benedito",
+        "code" : "2312304",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "São Gonçalo do Amarante",
+        "code" : "2312403",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "São João do Jaguaribe",
+        "code" : "2312502",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "São Luís do Curu",
+        "code" : "2312601",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Senador Pompeu",
+        "code" : "2312700",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Senador Sá",
+        "code" : "2312809",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Sobral",
+        "code" : "2312908",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Solonópole",
+        "code" : "2313005",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Tabuleiro do Norte",
+        "code" : "2313104",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Tamboril",
+        "code" : "2313203",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Tarrafas",
+        "code" : "2313252",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Tauá",
+        "code" : "2313302",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Tejuçuoca",
+        "code" : "2313351",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Tianguá",
+        "code" : "2313401",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Trairi",
+        "code" : "2313500",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Tururu",
+        "code" : "2313559",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Ubajara",
+        "code" : "2313609",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Umari",
+        "code" : "2313708",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Umirim",
+        "code" : "2313757",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Uruburetama",
+        "code" : "2313807",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Uruoca",
+        "code" : "2313906",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Varjota",
+        "code" : "2313955",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Várzea Alegre",
+        "code" : "2314003",
+        "abbreviation" : null,
+        "state_code" : 23
+    },
+    {
+        "name" : "Viçosa do Ceará",
+        "code" : "2314102",
+        "abbreviation" : null,
+        "state_code" : 23
+    }
+]

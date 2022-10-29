@@ -9,7 +9,6 @@ use App\Dtos\Extra\MessageResponseDto;
 use App\Dtos\Models\UserDto;
 use App\Exceptions\HttpException;
 use App\Services\AuthService;
-use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
@@ -40,7 +39,6 @@ class AuthController extends Controller
     {
         if (!$this->authService->checkCurrentPassword($dto->current_password))
             throw HttpException::incorrectCurrentPassword();
-
         $this->authService->changePassword($dto->password);
         return new MessageResponseDto(__('auth.password_changed'));
     }
